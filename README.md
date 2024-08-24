@@ -17,6 +17,6 @@ The **Products** table was in the form of a .csv file, which was uploaded onto G
 
 Next, the **Stores** table was imported using Blob Storage and the columns 'id', 'id2' and 'id3' were removed.
 
-The **Customers** table was in a folder file which was imported using 'Combine and Transform' function. A new column 'Full Name' was created using the *Column from Examples* feature to merge 'First Name' and 'Last Name' columns and the 'First Name' and 'Last Name' columns were then deleted.
+The **Customers** table was made up of three .csv files, each with the same column format for each region the company operates in. These files are stored in a zip file which was unzipped then imported using 'Combine and Transform' function. A new column 'Full Name' was created using the *Column from Examples* feature to merge 'First Name' and 'Last Name' columns and the 'First Name' and 'Last Name' columns were then deleted.
 
 For every table, the columns were renamed to align with Power BI naming conventions as well as for maintaining consistency. For example, 'product_code' was changed into 'Product Code'.
