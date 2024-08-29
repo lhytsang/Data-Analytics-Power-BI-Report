@@ -2,7 +2,8 @@
 
 
 ## Importing the Data
-> This project was done on a Linux system so the processes used for some parts may differ.
+> [!NOTE]
+> This project was done on a Linux system so the processes used for other operating systems may differ.
 
 For this task, there are four tables that we need to import:
 - **Orders**: contains each order's details, including the order and shipping dates, the customer, store, product IDs and the quantity of each product ordered. Each order in the table is made up of an order of a single product type.
