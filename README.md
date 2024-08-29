@@ -81,4 +81,4 @@ Geography hierarchy:
 1) Region
 2) Country
 3) Country Region
-
+![datamodel](Data Model.png)
